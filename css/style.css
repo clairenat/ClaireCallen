@@ -17,12 +17,20 @@
     src: url(/fonts/Orbitron-Regular.ttf);
 }
 
+@font-face {
+    font-family: Robotomono-regular;
+    src: url(/fonts/RobotoMono-Regular.ttf);
+}
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
 h1, h2, h3, h4 {
     font-family: Orbitron-bold;
 }
 
 p {
-    font-family: Roboto-regular;
+    font-family: Robotomono-regular;
 }
 
 li {
@@ -30,7 +38,7 @@ li {
 }
 
 figcaption {
-    font-family: Roboto-regular;
+    font-family: Robotomono-regular;
 }
 
 h1 {
