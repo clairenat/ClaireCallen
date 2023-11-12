@@ -26,19 +26,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 
 h1, h2, h3, h4 {
-    font-family: Orbitron-bold;
+    font-family: 'Orbitron-bold';
 }
 
 p {
-    font-family: Robotomono-regular;
+    font-family: 'Robotomono-regular';
 }
 
 li {
-    font-family: Orbitron-regular;
+    font-family: 'Orbitron-regular';
 }
 
 figcaption {
-    font-family: Robotomono-regular;
+    font-family: 'Robotomono-regular';
 }
 
 h1 {
@@ -47,8 +47,4 @@ h1 {
 
 h2 {
     font-size: 24px;
-}
-
-div.hero + h1 {
-    color: aqua;
 }
