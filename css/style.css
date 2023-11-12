@@ -3,12 +3,44 @@
     src: url(/fonts/ufonts.com_contour-regular.ttf);
   }
 
+@font-face {
+    font-family: Roboto-regular;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Orbitron-bold;
+    src: url(/fonts/Orbitron-Bold.ttf);
+}
+
+@font-face {
+    font-family: Orbitron-regular;
+    src: url(/fonts/Orbitron-Regular.ttf);
+}
+
+h1, h2, h3, h4 {
+    font-family: Orbitron-bold;
+}
+
+p {
+    font-family: Roboto-regular;
+}
+
+li {
+    font-family: Orbitron-regular;
+}
+
+figcaption {
+    font-family: Roboto-regular;
+}
+
 h1 {
-    font-family: Contour;
     font-size: 36px;
 }
 
 h2 {
-    font-family: Contour;
     font-size: 24px;
+}
+
+div.hero + h1 {
+    color: aqua;
 }
