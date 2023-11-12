@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Contour;
+    src: url(/fonts/ufonts.com_contour-regular.ttf);
+  }
+
+h1 {
+    font-family: Contour;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: Contour;
+    font-size: 24px;
+}
