@@ -4,7 +4,7 @@
   }
 
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto';
     src: url(/fonts/Roboto-Regular.ttf);
 }
 @font-face {
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-    font-family: Orbitron;
+    font-family: 'Orbitron';
     src: url(/fonts/Orbitron-Regular.ttf);
 }
 
