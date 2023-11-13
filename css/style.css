@@ -50,3 +50,11 @@ h1 {
 h2 {
     font-size: 24px;
 }
+
+a#home {
+    font-family: Obitron;
+}
+
+.topnav {
+    font-family: Orbitron;
+}
