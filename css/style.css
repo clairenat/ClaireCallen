@@ -18,7 +18,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto+Mono';
+    font-family: 'RobotoMono';
     src: url(/fonts/RobotoMono-Regular.ttf);
 }
 
@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-    font-family: 'Roboto+Mono';
+    font-family: RobotoMono;
 }
 
 li {
@@ -35,7 +35,7 @@ li {
 }
 
 figcaption {
-    font-family: 'Roboto+Mono';
+    font-family: RobotoMono;
 }
 
 h1 {
