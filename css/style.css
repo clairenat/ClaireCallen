@@ -2,7 +2,7 @@
     font-family: Contour;
     src: url(/fonts/ufonts.com_contour-regular.ttf);
   }
-
+/*
 @font-face {
     font-family: Roboto-regular;
     src: url(/fonts/Roboto-Regular.ttf);
@@ -21,24 +21,25 @@
     font-family: Robotomono-regular;
     src: url(/fonts/RobotoMono-Regular.ttf);
 }
+*/
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 
 h1, h2, h3, h4 {
-    font-family: 'Orbitron-bold';
+    font-family: 'Orbitron:bold';
 }
 
 p {
-    font-family: 'Robotomono-regular';
+    font-family: 'Roboto+Mono';
 }
 
 li {
-    font-family: 'Orbitron-regular';
+    font-family: 'Orbitron';
 }
 
 figcaption {
-    font-family: 'Robotomono-regular';
+    font-family: 'Robotomono+Mono';
 }
 
 h1 {
