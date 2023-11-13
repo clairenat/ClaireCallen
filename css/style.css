@@ -8,7 +8,7 @@
     src: url(/fonts/Roboto-Regular.ttf);
 }
 @font-face {
-    font-family: 'Orbitron-bold';
+    font-family: 'Orbitron:bold';
     src: url(/fonts/Orbitron-Bold.ttf);
 }
 
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Mono';
+    font-family: 'Roboto+Mono';
     src: url(/fonts/RobotoMono-Regular.ttf);
 }
 
@@ -28,11 +28,11 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron:bold);
 
 h1, h2, h3, h4 {
-    font-family: Orbitron-bold;
+    font-family: 'Orbitron:bold';
 }
 
 p {
-    font-family: Roboto-Mono;
+    font-family: 'Roboto+Mono';
 }
 
 li {
@@ -40,7 +40,7 @@ li {
 }
 
 figcaption {
-    font-family: Roboto-Mono;
+    font-family: 'Roboto+Mono';
 }
 
 h1 {
