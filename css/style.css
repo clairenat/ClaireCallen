@@ -182,11 +182,19 @@ header nav {
     font-size: 20px;
 }
 
-.body {
+a {
     color: black;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 730px) {
+
+}
+@media screen and (min-width: 1280px) {
+   /*Navigation*/
     #hamburger-icon {
         margin: auto 0;
         display: none;
@@ -195,9 +203,12 @@ header nav {
     header nav {
         display: inline-block;
     }
-}
-@media screen and (min-width: 1280px) {
     header {
         margin: 0 64px;
+    }
+    nav > ul li {
+        padding: 5px;
+        margin-left: 25px;
+        font-size: 18px;
     }
 }
