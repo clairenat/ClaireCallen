@@ -175,9 +175,14 @@ header nav {
 }
 
 .mobile-menu li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.body {
     color: black;
 }
 
