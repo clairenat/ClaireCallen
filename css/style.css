@@ -66,7 +66,7 @@ a#home {
 .projects {
     /*background-color: #257AA5;*/
     /*background-color: #9DDFF6;*/
-    background-color: white;
+    background-color: #79D0F2;
 }
 .projects >h3 {
     color: black;
@@ -189,6 +189,10 @@ a {
 .active {
     text-decoration: underline;
 }
+/*UX Design Section*/
+
+
+
 
 @media screen and (min-width: 730px) {
 
