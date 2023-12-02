@@ -1,4 +1,5 @@
 /*Mobile View*/
+
 @font-face {
     font-family: Contour;
     src: url(/fonts/ufonts.com_contour-regular.ttf);
@@ -90,6 +91,7 @@ header {
     height: 50px;
     display: flex;
     justify-content: space-between;
+    background-color: #79d0f2;
 }
 
 #brand {
@@ -168,7 +170,7 @@ header nav {
     left: 0;
     height: calc(100vh-50px);
     width: 100%;
-    background-color: white;
+    background-color:#79d0f2;
     text-align: center;
     list-style: none;
 }
@@ -188,9 +190,31 @@ a {
 .active {
     text-decoration: underline;
 }
+/*Hero Section*/
+.hero {
+    background-image: linear-gradient(#79d0f2, white);
+}
 /*UX Design Section*/
 
+/*Playground Section*/
 
+/*Footer*/
+.footer{
+    background-image: linear-gradient(white, #79d0f2);
+}
+
+/*About Section*/
+.about {
+    background-image: linear-gradient(#79d0f2, white);
+}
+
+/*Theme Section*/
+
+/*Travel*/
+
+/*Cafe*/
+
+/*Tuffy*/
 
 
 @media screen and (min-width: 730px) {
@@ -207,7 +231,7 @@ a {
         display: inline-block;
     }
     header {
-        margin: 0 64px;
+        padding: 0 64px;
     }
     nav > ul li {
         padding: 5px;
