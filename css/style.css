@@ -64,9 +64,8 @@ a#home {
 }
 
 .projects {
-    /*background-color: #257AA5;*/
-    /*background-color: #9DDFF6;*/
-    background-color: #79D0F2;
+    /*background-color: #79D0F2;*/
+    background-color: white;
 }
 .projects >h3 {
     color: black;
