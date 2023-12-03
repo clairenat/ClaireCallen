@@ -241,11 +241,15 @@ a {
 .playground > h2 {
     margin-bottom: 20px;
 }
+.playground > p {
+    margin-bottom: 40px;
+}
 .playground > figure img {
     max-width: 80vw;
     max-height: 50vh;
     display: block;
     margin: 0 auto;
+    box-shadow: 5px 5px 10px#79d0f2;
 }
 .playground > figure h3 {
     margin-top: 10px;
