@@ -244,7 +244,9 @@ a {
 }
 
 .divider > img {
-    width: 100vw;
+    width: 99vw;
+    height: 0.5vh;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 730px) {
