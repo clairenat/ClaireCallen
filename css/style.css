@@ -195,15 +195,84 @@ a {
     background-image: linear-gradient(#79d0f2, white);
     padding: 0 16px;
 }
+.hero > h1 {
+    padding-bottom: 30px;
+    line-height: 45px;
+}
+
 
 /*UX Design Section*/
 .projects {
     padding: 0 16px;
 }
+.projects > h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.projects > figure img {
+    max-width: 90vw;
+    max-height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects > figure h3 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.projects > figure figcaption {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.divider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 /*Playground Section*/
 .playground {
     padding: 0 16px;
+}
+.playground > h2 {
+    margin-bottom: 20px;
+}
+.playground > figure img {
+    max-width: 80vw;
+    max-height: 50vh;
+    display: block;
+    margin: 0 auto;
+}
+.playground > figure h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.playground > figure figcaption {
+    margin-bottom: 60px;
+}
+
+.playground-item {
+    display:grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
+}
+.playground > figure:nth-child(2) {
+    margin-top: -100px;
+}
+
+
+.playground > figure img {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.play-words {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 /*Footer*/
@@ -212,24 +281,141 @@ a {
     padding: 0 16px;
 }
 
+.footer > h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer > h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer > ul {
+    list-style: none;
+}
+
+.footer > ul li {
+    margin-top: 20px;
+}
+
+.footer > ul li:nth-child(2) {
+    padding-bottom: 30px;
+}
+
+
 /*About Section*/
 .about {
     background-image: linear-gradient(#79d0f2, white);
     padding: 0 16px;
 }
+.about {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 3fr 3fr;
+}
 
-/*Theme Section*/
-.theme {
-    padding: 0 16px;
+.about-image {
+    max-width: 90vw;
+    max-height: 70vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.about-words {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.about-words > h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+.about-words {
+    margin-bottom: 30px;
+    font-size: 16px;
 }
 
 /*Outside Section*/
-.outside > h2 {
+.outside-design > h2 {
     padding: 0 16px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.outside-design > h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 16px;
 }
 
 /*Travel*/
 .travel {
+    padding: 0 16px;
+}
+.travel {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 0.5fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.firstchild {
+    grid-column: 2;
+    grid-row: 1;
+    width: 40vw;
+    height: 50vw;
+    row-gap: 5px;
+}
+.secondchild {
+    grid-column: 3;
+    grid-row: 1;
+    width: 40vw;
+    height: 50vw;
+    row-gap: 5px;
+}
+.thirdchild {
+    grid-column: 2;
+    grid-row: 2;
+    width: 40vw;
+    height: 50vw;
+    row-gap: 0px;
+}
+.fourthchild {
+    grid-column: 3;
+    grid-row: 2;
+    width: 40vw;
+    height: 50vw;
+    row-gap: 0px;
+}
+.fifthchild {
+    grid-column: 2;
+    grid-row: 3;
+    width: 40vw;
+    height: 50vw;
+    row-gap: 0px;
+}
+.sixthchild {
+    grid-column: 3;
+    grid-row: 3;
+    width: 40vw;
+    height: 50vw;
+    row-gap: 0px;
+}
+.outside-design > h3 {
+    padding: 0 16px;
+}
+.outside-design > h2 {
     padding: 0 16px;
 }
 
@@ -237,10 +423,28 @@ a {
 .cafe {
     padding: 0 16px;
 }
+.cafe {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 0.5fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 
 /*Tuffy*/
 .tuffy {
     padding: 0 16px;
+}
+.tuffy {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 0.5fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .divider > img {
