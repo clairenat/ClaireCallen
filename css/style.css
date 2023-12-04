@@ -230,7 +230,17 @@ a {
     margin-bottom: 60px;
 }
 
+.projects > figure img:nth-child(1) {
+    display: block;
+}
+
+.projects > figure img {
+    display: none;
+}
 .projects > figure img:nth-child(2) {
+    display: none;
+}
+.projects > figure img:nth-child(3) {
     display: none;
 }
 
