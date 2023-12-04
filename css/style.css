@@ -476,15 +476,85 @@ header {
 .hero {
     padding: 0 40px;
 }
+.hero > h1 {
+    font-size: 40px;
+    line-height: 80px;
+    padding-top: 20px;
+}
 /*UX Design Section*/
 .projects {
     padding: 0 40px;
+}
+.projects > h2 {
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.projects > figure h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.projects > figure figcaption {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
 }
 
 /*Playground Section*/
 .playground {
     padding: 0 40px;
 }
+.playground {
+    display:grid;
+    grid-template-columns: 2fr 2fr
+}
+.playground > h2 {
+    grid-column: 1 / span 2;
+}
+.playground > p {
+    grid-column: 1 / span 2;
+}
+.playground > figure img {
+    width: 40vw;
+    height: 30vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px#79d0f2;
+}
+.black {
+    background-color: black;
+}
+
+.playground > figure h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.playground > figure figcaption {
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 1.25;
+} 
+#firstplay {
+    grid-column: 1;
+}
+#secondplay {
+    grid-column: 2;
+}
+.playground > h2 {
+    font-size: 36px;
+    margin-top: 100px;
+}
+.playground > p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
 
 /*Footer*/
 .footer {
