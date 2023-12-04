@@ -230,6 +230,10 @@ a {
     margin-bottom: 60px;
 }
 
+.projects > figure img:nth-child(2) {
+    display: none;
+}
+
 .divider {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -466,6 +470,7 @@ a {
     height: 0.5vh;
     margin: 0 auto;
 }
+
 
 @media screen and (min-width: 730px) {
 
@@ -1100,5 +1105,12 @@ header {
         row-gap: 10px;
         margin: 0 auto;
         margin-bottom: 30px;
+    }
+    .scenes {
+        position: relative;
+        aspect-ratio: 2.4 / 1;
+    }
+    .transition-image {
+        display: none;
     }
 }
