@@ -251,7 +251,7 @@ a {
     max-height: 50vh;
     display: block;
     margin: 0 auto;
-    box-shadow: 5px 5px 10px#79d0f2;
+    /*box-shadow: 5px 5px 10px#79d0f2;*/
 }
 .playground > figure h3 {
     margin-top: 10px;
@@ -525,10 +525,13 @@ header {
     object-fit: contain;
     display: block;
     margin: 0 auto;
-    box-shadow: 5px 5px 10px#79d0f2;
+    /*box-shadow: 5px 5px 10px#79d0f2;*/
 }
 .black {
     background-color: black;
+}
+.grey {
+    background-color: #C4C4C4;
 }
 
 .playground > figure h3 {
