@@ -573,7 +573,7 @@ a {
 .koinoike-branding > h2 {
     color: #471419;
     line-height: 1.25;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 10px;
 }
 .koinoike-branding > p {
@@ -583,11 +583,38 @@ a {
 .koinoike-brand-identity {
     overflow: auto;
     white-space: nowrap;
-    padding: 2px;
     /*background-color: #a9262d;*/
     scrollbar-color: #471419;
 }
 .koinoike-brand-identity img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border: 1px solid #471419;
+    /*box-shadow: 5px 5px gray;*/
+}
+
+/*hi-fidelity mockup*/
+.koinoike-mockups {
+    padding: 0 16px;
+}
+.koinoike-mockups > h2 {
+    color: #471419;
+    line-height: 1.25;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.koinoike-mockups > p {
+    line-height: 1.25;
+    padding-bottom: 20px;
+}
+.koinoike-mockup-images {
+    overflow: auto;
+    white-space: nowrap;
+    /*background-color: #a9262d;*/
+    scrollbar-color: #471419;
+    margin-bottom: 60px;
+}
+.koinoike-mockup-images img {
     max-width: 90vw;
     max-height: 90vh;
     border: 1px solid #471419;
