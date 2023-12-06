@@ -162,6 +162,7 @@ header nav {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    z-index: 5;
 }
 
 .mobile-menu {
@@ -174,6 +175,7 @@ header nav {
     background-color:#79d0f2;
     text-align: center;
     list-style: none;
+    z-index: 1;
 }
 
 .mobile-menu li {
@@ -281,10 +283,18 @@ a {
 .playground-item {
     display:grid;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 1fr 0.5fr;
+    grid-template-rows: 1fr;
+}
+
+a {
+    text-decoration: none;
 }
 .playground > figure:nth-child(2) {
     margin-top: -100px;
+}
+
+.playground > figure figcaption { 
+    line-height: 1.25;
 }
 
 
@@ -318,6 +328,7 @@ a {
 
 .footer > ul {
     list-style: none;
+    text-decoration: underline;
 }
 
 .footer > ul li {
@@ -484,6 +495,48 @@ a {
     margin: 0 auto;
 }
 
+/*NOAA*/
+.NOAA-opening {
+    margin-left: auto;
+    margin-right: auto;
+}
+.NOAA-opening-image {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.NOAA-opening-image > img {
+    clip-path: ellipse(50% 28% at 50% 50%);
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 2;
+}
+
+/*KOINOIKE*/
+#koinoike-footer {
+    background-image: linear-gradient(white, #a9262d);
+    color: white;
+}
+#koinoike-footer a {
+    color: white;
+}
+
+/*navigation*/
+#koinoike-header {
+    background-color: #a9262d;
+}
+#koinoike-header a {
+    color: white;
+}
+#koinoike-header .mobile-menu {
+    background-color: #a9262d;
+}
+#koinoike-header #hamburger-icon > div {
+    background-color: white;
+}
+
 
 @media screen and (min-width: 730px) {
 
@@ -595,7 +648,7 @@ header {
     margin-bottom: 60px;
 }
 .links a {
-    font-size: 20px;
+    font-size: 24px;
 }
 .footer > ul li {
     margin-top: 40px;
@@ -1125,5 +1178,8 @@ header {
     }
     .transition-image {
         display: none;
+    }
+    .playground > figure figcaption { 
+        line-height: 1.5;
     }
 }
