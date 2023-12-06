@@ -537,6 +537,10 @@ a {
     background-color: white;
 }
 
+/*opener*/
+.koinoike-opening {
+    background-image: linear-gradient(#a9262d, white);
+}
 
 @media screen and (min-width: 730px) {
 
