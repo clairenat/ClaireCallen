@@ -559,16 +559,28 @@ a {
     padding-bottom: 30px;
 }
 
+/*opener*/
+.koinoike-opening {
+    background-image: linear-gradient(#a9262d, white);
+}
+/*brand and identity*/
 .koinoike-branding {
     padding: 0 16px;
 }
 .koinoike-branding > h2 {
-    color: #a9262d;
+    color: #471419;
 }
-
-/*opener*/
-.koinoike-opening {
-    background-image: linear-gradient(#a9262d, white);
+.koinoike-brand-identity {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 2px;
+    background-color: #a9262d;
+    scrollbar-color: #471419;
+}
+.koinoike-brand-identity img {
+    padding: 2px;
+    max-width: 90vw;
+    max-height: 90vh;
 }
 
 @media screen and (min-width: 730px) {
