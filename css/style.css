@@ -1303,4 +1303,59 @@ header {
     .playground > figure figcaption { 
         line-height: 1.5;
     }
+    /*KOINOIKE*/
+.koinoike-opening {
+    padding: 0 64px;
+}
+.koinoike-opening > h1 {
+    font-size: 48px;
+    line-height: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+.koinoike-opening-image img {
+    padding-bottom: 20px;
+}
+.koinoike-opening-image {
+    display: grid;
+    grid-template-columns: 5fr;
+}
+.koinoike-opening-image > img {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    max-width: 90vw;
+    max-height: 90vh;
+    z-index: 2;
+    margin-bottom: 30px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.koinoike-branding {
+    padding: 0 64px;
+}
+.koinoike-branding > h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.koinoike-branding > p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.koinoike-mockups {
+    padding: 0 64px;
+}
+.koinoike-mockups > h2 {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.koinoike-mockups > p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.koinoike-mockup-images {
+    margin-bottom: 90px;
+}
 }
