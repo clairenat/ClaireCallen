@@ -266,8 +266,8 @@ a {
     margin-bottom: 40px;
 }
 .playground > figure img {
-    max-width: 80vw;
-    max-height: 50vh;
+    max-width: 90vw;
+    max-height: 40vh;
     display: block;
     margin: 0 auto;
     /*box-shadow: 5px 5px 10px#79d0f2;*/
@@ -535,6 +535,35 @@ a {
 }
 #koinoike-header #hamburger-icon > div {
     background-color: white;
+}
+.koinoike-opening-image {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.koinoike-opening-image > img {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2;
+    max-width: 85vw;
+    max-height: 85vh;
+    z-index: 2;
+    padding-bottom: 30px;
+}
+.koinoike-opening {
+    padding: 0 16px;
+}
+.koinoike-opening > h1 {
+    font-size: 36px;
+    line-height: 45px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.koinoike-branding {
+    padding: 0 16px;
+}
+.koinoike-branding > h2 {
+    color: #a9262d;
 }
 
 /*opener*/
