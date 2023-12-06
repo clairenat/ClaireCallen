@@ -952,6 +952,43 @@ header {
     margin-left: 40px;
     margin-right: 40px;
 }
+/*KOINOIKE*/
+.koinoike-opening {
+    padding: 0 40px;
+}
+.koinoike-opening > h1 {
+    font-size: 40px;
+    line-height: 80px;
+    padding-top: 20px;
+}
+.koinoike-opening-image img {
+    padding-bottom: 20px;
+}
+.koinoike-branding {
+    padding: 0 40px;
+}
+.koinoike-branding > h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.koinoike-branding > p {
+    font-size: 18px;
+}
+.koinoike-mockups {
+    padding: 0 40px;
+}
+.koinoike-mockups > h2 {
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.koinoike-mockups > p {
+    font-size: 18px;
+}
+.koinoike-mockup-images {
+    margin-bottom: 90px;
+}
+
 }
 @media screen and (min-width: 1280px) {
    /*Navigation*/
