@@ -648,7 +648,7 @@ a {
 }
 .scroll-mobile {
     /*padding: 0 16px;*/
-    width: 200px;
+    width: 150px;
     max-height: 50vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -657,7 +657,21 @@ a {
     /*border: 1px solid #013088;*/
 }
 .scroll-mobile img {
-    width: 200px;
+    width: 150px;
+    /*border: 1px solid #013088;*/
+}
+.scroll-desktop {
+    /*padding: 0 16px;*/
+    width: 340px;
+    max-height: 50vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    border: 1px solid #013088;
+    /*border: 1px solid #013088;*/
+}
+.scroll-desktop img {
+    width: 340px;
     /*border: 1px solid #013088;*/
 }
 
