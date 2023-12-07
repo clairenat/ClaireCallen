@@ -496,9 +496,37 @@ a {
 }
 
 /*NOAA*/
+#Noaa-footer {
+    background-image: linear-gradient(white, #013088);
+    color: white;
+}
+#Noaa-footer a {
+    color: white;
+}
+#Noaa-footer > h3 {
+    color: #023347;
+}
+
+/*navigation*/
+#Noaa-header {
+    background-color: #013088;
+}
+#Noaa-header a {
+    color: white;
+}
+#Noaa-header .mobile-menu {
+    background-color: #013088;
+}
+#Noaa-header #hamburger-icon > div {
+    background-color: white;
+}
 .NOAA-opening {
     margin-left: auto;
     margin-right: auto;
+    background-image: linear-gradient(#013088, white)
+}
+.NOAA-opening > h1 {
+    color: white;
 }
 .NOAA-opening-image {
     display: grid;
