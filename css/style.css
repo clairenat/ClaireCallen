@@ -541,6 +541,9 @@ a {
     z-index: 2;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
+/*.NOAA-Reflection > ul {
+    list-style-image: url('/NOAAimages/3dstarNOAA.png');
+}*/
 
 /*KOINOIKE*/
 #koinoike-footer {
@@ -1441,4 +1444,9 @@ header {
 .koinoike-mockup-images {
     margin-bottom: 90px;
 }
+}
+.NOAA-Reflection > ul {
+    list-style-image: url('/NOAAimages/3dstarNOAA.png');
+    list-style-position: inside;
+    /*list-style-image: linear-gradient(to left bottom, red, blue);*/
 }
