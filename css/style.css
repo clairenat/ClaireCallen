@@ -531,6 +531,10 @@ a {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
 }
+.NOAA-opening {
+    padding: 0 16px;
+}
+
 .NOAA-opening-image > img {
     clip-path: ellipse(50% 28% at 50% 50%);
     margin-left: auto;
@@ -541,9 +545,100 @@ a {
     z-index: 2;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
-/*.NOAA-Reflection > ul {
-    list-style-image: url('/NOAAimages/3dstarNOAA.png');
-}*/
+.NOAA-role {
+    color: #023347;
+}
+.NOAA-timeline {
+    color: #023347;
+}
+.NOAA-tools {
+    color: #023347;
+}
+.NOAA-overview {
+    padding: 0 16px;
+}
+
+.NOAA-overview > h2, h3 {
+    color: #023347;
+}
+
+.NOAA-about > ul {
+    list-style-image: url('/NOAAimages/NOAA-star2.png');
+    /*list-style-position: inside;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.NOAA-GLANSIS >ul {
+    list-style-image: url('/NOAAimages/NOAA-star2.png');
+    /*list-style-position: inside;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.NOAA-problem {
+    padding: 0 16px;
+}
+.NOAA-problem > h2 {
+    color: #023347;
+}
+.NOAA-goals {
+    padding: 0 16px;
+}
+.NOAA-goals > h2 {
+    color: #023347;
+}
+.NOAA-goal1 {
+    padding: 0 16px;
+}
+.NOAA-goal1 > h2 {
+    color: #023347;
+}
+.NOAA-goal2 {
+    padding: 0 16px;
+}
+.NOAA-goal2 > h2 {
+    color: #023347;
+}
+.NOAA-goal3 {
+    padding: 0 16px;
+}
+.NOAA-goal3 > h2 {
+    color: #023347;
+}
+.NOAA-goal4 {
+    padding: 0 16px;
+}
+.NOAA-goal4 > h2 {
+    color: #023347;
+}
+.NOAA-Reflection {
+    padding: 0 16px;
+}
+.NOAA-Reflection > h2 {
+    color: #023347;
+}
+
+
+
+.NOAA-Reflection > ul {
+    list-style-image: url('/NOAAimages/NOAA-star2.png');
+    padding-left: 20px;
+    padding-right: 20px;
+    /*list-style-image: linear-gradient(to left bottom, red, blue);*/
+}
+.scroll-mobile {
+    /*padding: 0 16px;*/
+    width: 200px;
+    max-height: 50vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    border: 1px solid #013088;
+    /*border: 1px solid #013088;*/
+}
+.scroll-mobile img {
+    width: 200px;
+    /*border: 1px solid #013088;*/
+}
 
 /*KOINOIKE*/
 #koinoike-footer {
@@ -1444,9 +1539,4 @@ header {
 .koinoike-mockup-images {
     margin-bottom: 90px;
 }
-}
-.NOAA-Reflection > ul {
-    list-style-image: url('/NOAAimages/NOAA-star2.png');
-    list-style-position: inside;
-    /*list-style-image: linear-gradient(to left bottom, red, blue);*/
 }
