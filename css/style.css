@@ -652,6 +652,57 @@ a {
 
 
 /*Playing House*/
+#PH-footer {
+    background-image: linear-gradient(white, #ec008c);
+    color: white;
+}
+#PH-footer a {
+    color: white;
+}
+#PH-footer > h3 {
+    color: #660047;
+}
+
+/*navigation*/
+#PH-header {
+    background-color: #ec008c;
+}
+#PH-header a {
+    color: white;
+}
+#PH-header .mobile-menu {
+    background-color: #ec008c;
+}
+#PH-header #hamburger-icon > div {
+    background-color: white;
+}
+.PH-opening {
+    padding: 0 16px;
+}
+.PH-opening {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#ec008c, white)
+}
+.PH-opening > h1 {
+    color: white;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 30px;
+}
+.PH-about {
+    padding: 0 16px;
+}
+.PH-about > h2 {
+    color: #660047;
+    line-height: 1.25;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.PH-about > p {
+    line-height: 1.25;
+    padding-bottom: 20px;
+}
 
 
 @media screen and (min-width: 730px) {
