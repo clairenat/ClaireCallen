@@ -1446,7 +1446,7 @@ header {
 }
 }
 .NOAA-Reflection > ul {
-    list-style-image: url('/NOAAimages/NOAA-liststar2.png');
+    list-style-image: url('/NOAAimages/NOAA-starlist.png');
     list-style-position: inside;
     /*list-style-image: linear-gradient(to left bottom, red, blue);*/
 }
