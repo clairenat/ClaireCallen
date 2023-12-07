@@ -580,12 +580,12 @@ a {
 .NOAA-problem > h2 {
     color: #023347;
 }
-.NOAA-style-guide {
+.NOAA-current-design {
     overflow: auto;
     white-space: nowrap;
     scrollbar-color: #023347;
 }
-.NOAA-style-guide img {
+.NOAA-current-design img {
     max-width: 90vw;
     max-height: 90vh;
     border: 1px solid #023347;
@@ -620,6 +620,16 @@ a {
 }
 .NOAA-goal4 > h2 {
     color: #023347;
+}
+.NOAA-style-guide {
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-color: #023347;
+}
+.NOAA-style-guide img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border: 1px solid #023347;
 }
 .NOAA-Reflection {
     padding: 0 16px;
