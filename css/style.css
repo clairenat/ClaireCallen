@@ -526,6 +526,10 @@ a {
 }
 .NOAA-opening > h1 {
     color: white;
+    padding-bottom: 30px;
+    line-height: 45px;
+    padding-top: 15px;
+    font-size: 36px;
 }
 .NOAA-opening-image {
     display: grid;
@@ -544,15 +548,43 @@ a {
     max-height: 90vh;
     z-index: 2;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    margin-bottom: 30px;
+}
+.underneath-image-NOAA {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 30px;
 }
 .NOAA-role {
     color: #023347;
+    grid-column: 1;
+}
+.NOAA-role > h2 {
+    font-size: 16px;
+}
+.NOAA-role > p {
+    font-size: 14px;
 }
 .NOAA-timeline {
     color: #023347;
+    grid-column: 2;
+}
+.NOAA-timeline > h2 {
+    font-size: 16px;
+}
+.NOAA-timeline > p {
+    font-size: 14px;
 }
 .NOAA-tools {
     color: #023347;
+    grid-column: 3;
+}
+.NOAA-tools > h2 {
+    font-size: 16px;
+}
+.NOAA-tools > p {
+    font-size: 14px;
 }
 .NOAA-overview {
     padding: 0 16px;
@@ -560,6 +592,36 @@ a {
 
 .NOAA-overview > h2, h3 {
     color: #023347;
+}
+.NOAA-overview > h2 {
+    line-height: 1.25;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+.NOAA-about > h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.NOAA-about > ul {
+    margin-bottom: 20px;
+}
+.NOAA-about ul li {
+    line-height: 1.25;
+}
+.NOAA-GLANSIS > h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.NOAA-GLANSIS > ul {
+    margin-bottom: 20px;
+}
+.NOAA-GLANSIS > ul li {
+    line-height: 1.25;
 }
 
 .NOAA-about > ul {
@@ -574,12 +636,33 @@ a {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+
+
+
 .NOAA-problem {
     padding: 0 16px;
 }
 .NOAA-problem > h2 {
     color: #023347;
+    line-height: 1.25;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
 }
+.NOAA-problem p {
+    line-height: 1.25;
+}
+.NOAA-problem > h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.NOAA-current-design {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
 .NOAA-current-design {
     overflow: auto;
     white-space: nowrap;
@@ -596,46 +679,269 @@ a {
 }
 .NOAA-goals > h2 {
     color: #023347;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    text-align: center;
 }
+.NOAA-PG1 > h3 {
+    margin-bottom: 5px;
+}
+.NOAA-PG1 > p {
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+.NOAA-PG2 > h3 {
+    margin-bottom: 5px;
+}
+.NOAA-PG2 > p {
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+.NOAA-PG3 > h3 {
+    margin-bottom: 5px;
+}
+.NOAA-PG3 > p {
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+.NOAA-PG4 > h3 {
+    margin-bottom: 5px;
+}
+.NOAA-PG4 > p {
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+
+
+
+
 .NOAA-goal1 {
     padding: 0 16px;
 }
 .NOAA-goal1 > h2 {
     color: #023347;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
 }
+.NOAA-goal1 > p {
+    line-height: 1.25;
+}
+
+.NOAA-results > .scroll-mobile {
+    margin: 0 auto;
+}
+.NOAA-results > .scroll-mobile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.NOAA-results > .scroll-desktop {
+    margin: 0 auto;
+}
+.NOAA-results > .scroll-desktop {
+    margin-bottom: 60px;
+}
+
+
+
+
+
 .NOAA-goal2 {
     padding: 0 16px;
 }
 .NOAA-goal2 > h2 {
     color: #023347;
+    margin-bottom: 20px;
+    text-align: center;
 }
+.NOAA-goal2 > p {
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.NOAA-Search {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+#search-first {
+    grid-column: 1;
+    grid-row: 1;
+}
+#search-second {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+#search-third {
+    grid-column: 2;
+    grid-row: 1;
+}
+#search-fourth {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+
+
+
+
 .NOAA-goal3 {
     padding: 0 16px;
 }
 .NOAA-goal3 > h2 {
     color: #023347;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
 }
+.NOAA-goal3 > p {
+    line-height: 1.25;
+}
+.NOAA-profilepage > .scroll-mobile {
+    margin: 0 auto;
+}
+.NOAA-profilepage > .scroll-mobile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.NOAA-profilepage > .scroll-desktop {
+    margin: 0 auto;
+}
+.NOAA-profilepage > .scroll-desktop {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
 .NOAA-goal4 {
     padding: 0 16px;
 }
 .NOAA-goal4 > h2 {
     color: #023347;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.25;
 }
+.NOAA-goal4 > p {
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+.NOAA-goal4 > h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.NOAA-initials {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+#initial-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+#initial-2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+#initial-3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+#initial-4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.NOAA-nocolor > .scroll-mobile {
+    margin: 0 auto;
+}
+.NOAA-nocolor > .scroll-mobile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.NOAA-nocolor > .scroll-desktop {
+    margin: 0 auto;
+}
+.NOAA-nocolor > .scroll-desktop {
+    margin-bottom: 60px;
+}
+
+
+
+
 .NOAA-style-guide {
     overflow: auto;
     white-space: nowrap;
     scrollbar-color: #023347;
+    margin-bottom: 60px;
 }
 .NOAA-style-guide img {
     max-width: 90vw;
     max-height: 90vh;
     border: 1px solid #023347;
 }
+
+
+
+.NOAA-color > .scroll-mobile {
+    margin: 0 auto;
+}
+.NOAA-color > .scroll-mobile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.NOAA-color > .scroll-desktop {
+    margin: 0 auto;
+}
+.NOAA-color > .scroll-desktop {
+    margin-bottom: 80px;
+}
+
+
+
+
 .NOAA-Reflection {
     padding: 0 16px;
 }
 .NOAA-Reflection > h2 {
     color: #023347;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.NOAA-learnd > h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.NOAA-learned > ul {
+    margin-bottom: 20px;
+}
+.NOAA-learned ul li {
+    line-height: 1.25;
+}
+.NOAA-moretime > h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.NOAA-moretime > ul {
+    margin-bottom: 20px;
+    margin-bottom: 80px;
+}
+.NOAA-moretime > ul li {
+    line-height: 1.25;
 }
 
 
