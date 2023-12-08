@@ -625,13 +625,13 @@ a {
 }
 
 .NOAA-about > ul {
-    list-style-image: url('.../NOAAimages/NOAA-star2.png');
+    list-style-image: url('../NOAAimages/NOAA-star2.png');
     /*list-style-position: inside;*/
     padding-left: 20px;
     padding-right: 20px;
 }
 .NOAA-GLANSIS >ul {
-    list-style-image: url('.../NOAAimages/NOAA-star2.png');
+    list-style-image: url('../NOAAimages/NOAA-star2.png');
     /*list-style-position: inside;*/
     padding-left: 20px;
     padding-right: 20px;
@@ -955,13 +955,13 @@ a {
 
 
 .NOAA-learned > ul {
-    list-style-image: url('.../NOAAimages/NOAA-star2.png');
+    list-style-image: url('../NOAAimages/NOAA-star2.png');
     padding-left: 20px;
     padding-right: 20px;
     /*list-style-image: linear-gradient(to left bottom, red, blue);*/
 }
 .NOAA-moretime > ul {
-    list-style-image: url('.../NOAAimages/NOAA-star2.png');
+    list-style-image: url('../NOAAimages/NOAA-star2.png');
     padding-left: 20px;
     padding-right: 20px;
     /*list-style-image: linear-gradient(to left bottom, red, blue);*/
