@@ -1159,6 +1159,17 @@ a {
     padding-bottom: 20px;
 }
 
+.PH-video-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.PH-video {
+    grid-column: 2;
+    max-width: 90vw;
+    max-height: 50vh;
+}
+
+
 
 @media screen and (min-width: 730px) {
 
@@ -2001,6 +2012,47 @@ header {
 }
 .koinoike-mockup-images {
     margin-bottom: 90px;
+}
+
+/*Playing House*/
+
+.PH-opening {
+    padding: 0 40px;
+}
+.PH-opening {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#ec008c, white)
+}
+.PH-opening > h1 {
+    font-size: 40px;
+    line-height: 80px;
+    padding-top: 20px;
+}
+.PH-about {
+    padding: 0 40px;
+}
+.PH-about > h2 {
+    color: #660047;
+    line-height: 1.25;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+.PH-about > p {
+    line-height: 1.25;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.PH-video-container {
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr;
+}
+.PH-video {
+    grid-column: 2;
+    max-width: 90vw;
+    max-height: 50vh;
 }
 
 }
@@ -2876,6 +2928,49 @@ header {
 }
 .koinoike-mockup-images {
     margin-bottom: 90px;
+}
+
+/*Playing House*/
+
+.PH-opening {
+    padding: 0 64px;
+}
+.PH-opening {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#ec008c, white)
+}
+.PH-opening > h1 {
+    font-size: 48px;
+    line-height: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.PH-about {
+    padding: 0 64px;
+}
+.PH-about > h2 {
+    color: #660047;
+    line-height: 1.25;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.PH-about > p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.PH-video-container {
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr;
+}
+.PH-video {
+    grid-column: 2;
+    max-width: 90vw;
+    max-height: 90vh;
 }
 }
 
