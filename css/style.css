@@ -1171,6 +1171,7 @@ a {
 
 
 /*AO3*/
+/*footer*/
 #AO3-footer {
     background-image: linear-gradient(white, #A51E22);
     color: white;
@@ -1194,6 +1195,54 @@ a {
 }
 #AO3-header #hamburger-icon > div {
     background-color: white;
+}
+
+/*list style images*/
+.AO3-about > ul {
+    list-style-image: url('../AO3images/AO3star2.png');
+    /*list-style-position: inside;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.AO3-site >ul {
+    list-style-image: url('../AO3images/AO3star2.png');
+    /*list-style-position: inside;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.AO3-learned > ul {
+    list-style-image: url('../AO3images/AO3star2.png');
+    /*list-style-position: inside;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.AO3-moretime >ul {
+    list-style-image: url('../AO3images/AO3star2.png');
+    /*list-style-position: inside;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.AO3-style-guide {
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-color: #631319;
+    margin-bottom: 60px;
+}
+.AO3-style-guide img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border: 1px solid #631319;
+}
+.AO3-atomic-design {
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-color: #631319;
+    margin-bottom: 60px;
+}
+.AO3-atomic-design img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border: 1px solid #631319;
 }
 
 
