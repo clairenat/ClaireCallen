@@ -1170,6 +1170,46 @@ a {
 }
 
 
+/*AO3*/
+#AO3-footer {
+    background-image: linear-gradient(white, #A51E22);
+    color: white;
+}
+#AO3-footer a {
+    color: white;
+}
+#AO3-footer > h3 {
+    color: #631319;
+}
+
+/*navigation*/
+#AO3-header {
+    background-color: #A51E22;
+}
+#AO3-header a {
+    color: white;
+}
+#AO3-header .mobile-menu {
+    background-color: #A51E22;
+}
+#AO3-header #hamburger-icon > div {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+.project1 >h3 {
+    color: black;
+}
+.project2 > h3 {
+    color: black;
+}
 
 @media screen and (min-width: 730px) {
 
