@@ -1773,6 +1773,12 @@ a {
 .project2 > h3 {
     color: black;
 }
+.play-words > h3 {
+    color: black;
+}
+#homefooter > h3 {
+    color: black;
+}
 
 @media screen and (min-width: 730px) {
     .AO3-PG-img {
