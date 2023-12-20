@@ -1477,6 +1477,12 @@ a {
 .AO3-problem > h2, h3 {
     color: #631319;
 }
+.AO3-problem > h3 {
+    color: #631319;
+}
+.outside-design > h3 {
+    color: black;
+}
 .AO3-problem > h2 {
     line-height: 1.25;
     padding-top: 40px;
