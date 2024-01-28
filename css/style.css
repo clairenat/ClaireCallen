@@ -594,7 +594,10 @@ a {
 .NOAA-overview {
     padding: 0 16px;
 }
-.NOAA-overview > h2, h3 {
+.NOAA-overview > h2 {
+    color: #023347;
+}
+.NOAA-overview > h3 {
     color: #023347;
 }
 .NOAA-overview > h2 {
@@ -1435,7 +1438,10 @@ a {
 .AO3-overview {
     padding: 0 16px;
 }
-.AO3-overview > h2, h3 {
+.AO3-overview > h2 {
+    color: #631319;
+}
+.AO3-overview > h3 {
     color: #631319;
 }
 .AO3-overview > h2 {
@@ -1449,6 +1455,7 @@ a {
     margin-top: 20px;
     font-size: 18px;
     margin-bottom: 15px;
+    color: #631319;;
 }
 .AO3-about > ul {
     margin-bottom: 20px;
@@ -1460,6 +1467,7 @@ a {
     margin-top: 40px;
     font-size: 18px;
     margin-bottom: 15px;
+    color: #631319;;
 }
 
 .AO3-site > ul {
@@ -1474,7 +1482,7 @@ a {
 .AO3-problem {
     padding: 0 16px;
 }
-.AO3-problem > h2, h3 {
+.AO3-problem > h2 {
     color: #631319;
 }
 .AO3-problem > h3 {
@@ -1514,7 +1522,9 @@ a {
 .AO3-problem >ul li {
     line-height: 1.25;
 }
-
+.AO3-research-grid > h3 {
+    color: #631319;;
+}
 
 /*AO3 Project Goals*/
 .AO3-goals {
@@ -1526,8 +1536,10 @@ a {
     margin-bottom: 40px;
     text-align: center;
 }
+
 .AO3-PG1 > h3 {
     margin-bottom: 5px;
+    color: #631319;
 }
 .AO3-PG1 > p {
     line-height: 1.25;
@@ -1535,6 +1547,7 @@ a {
 }
 .AO3-PG2 > h3 {
     margin-bottom: 5px;
+    color: #631319;
 }
 .AO3-PG2 > p {
     line-height: 1.25;
@@ -1542,6 +1555,7 @@ a {
 }
 .AO3-PG3 > h3 {
     margin-bottom: 5px;
+    color: #631319;
 }
 .AO3-PG3 > p {
     line-height: 1.25;
@@ -1560,6 +1574,7 @@ a {
 }
 .AO3-foundation > h3 {
     margin-bottom: 15px;
+    color: #631319;
 }
 .AO3-foundation > p {
     line-height: 1.25;
@@ -1567,6 +1582,9 @@ a {
 }
 .AO3-foundation .AO3-appmap > h3 {
     margin-bottom: 15px;
+}
+.AO3-appmap-words > h3 {
+    color: #631319;
 }
 .AO3-foundation .AO3-appmap > p {
     line-height: 1.25;
@@ -1606,6 +1624,13 @@ a {
     font-size: 18px;
     margin-bottom: 20px;
     margin-top: 50px;
+    color: #631319;
+}
+.AO3-searchbypairing-grid-words > h3 {
+    color: #631319;
+}
+.AO3-searchbytag-grid-words > h3 {
+    color: #631319;
 }
 .AO3-goal1 .AO3-searchbypairing-grid-words > h3 {
     font-size: 18px;
@@ -1653,11 +1678,13 @@ a {
     font-size: 18px;
     margin-bottom: 20px;
     margin-top: 50px;
+    color: #631319;
 }
 .AO3-goal2 .AO3-createnewtagpack-grid-words > h3 {
     font-size: 18px;
     margin-bottom: 20px;
     margin-top: 50px;
+    color: #631319;
 }
 .AO3-goal2 .AO3-managetagpacks-grid .scroll-mobile {
     margin: 0 auto;
@@ -1701,16 +1728,19 @@ a {
     font-size: 18px;
     margin-bottom: 20px;
     margin-top: 50px;
+    color: #631319;
 }
 .AO3-goal3 .AO3-bookmarks-grid-words > h3 {
     font-size: 18px;
     margin-bottom: 20px;
     margin-top: 50px;
+    color: #631319;
 }
 .AO3-goal3 .AO3-updates-grid-words > h3 {
     font-size: 18px;
     margin-bottom: 15px;
     margin-top: 50px;
+    color: #631319;
 }
 .AO3-goal3 .AO3-managesubscriptions-grid .scroll-mobile {
     margin: 0 auto;
@@ -1739,6 +1769,7 @@ a {
     margin-top: 20px;
     font-size: 18px;
     margin-bottom: 15px;
+    color: #631319;
 }
 .AO3-learned > ul {
     margin-bottom: 20px;
@@ -1750,6 +1781,7 @@ a {
     margin-top: 40px;
     font-size: 18px;
     margin-bottom: 15px;
+    color: #631319;
 }
 
 .AO3-moretime > ul {
@@ -1766,7 +1798,10 @@ a {
 .AO3-foundation .AO3-appmap-words > p {
     margin-bottom: 20px;
 }
-
+.AO3-research-grid > img {
+    max-width: 80vw;
+    margin: 0 auto;
+}
 
 
 
@@ -1788,7 +1823,9 @@ a {
 
 /*SCENE TRANSITION ATTEMPT!!!*/
 
-
+.NOAA-overview > h3 {
+    color: #023347;
+}
 
 
 
